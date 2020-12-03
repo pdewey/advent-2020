@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 count = 0
-file = IO.foreach("prob1_1.txt") { |line|
+file = IO.foreach("prob1.txt") { |line|
   split = line.split(' ')
   range = split[0].split('-')
   pos1 = range[0].to_i - 1 # not zero indexed

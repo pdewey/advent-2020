@@ -2,7 +2,7 @@
 
 TARGET = 2020
 entries = []
-file = IO.foreach("prob1_1.txt") { |line|
+file = IO.foreach("prob1.txt") { |line|
   entries << line.to_i
 }
 
